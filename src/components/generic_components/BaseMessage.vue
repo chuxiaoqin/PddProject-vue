@@ -2,7 +2,7 @@
   <div>
   <div class="row" v-show="topstatus === true">
     <div class="col-md-12">
-      <tr class="col-md-10">
+      <tr class="col-md-10 name">
         <td class="col-md-5">姓名：</td>
         <td class="col-md-7">{{this.name}}</td>
       </tr>
@@ -255,7 +255,7 @@
     margin-top: 10px;
     width: 400px;
     height: 40px;
-    border-radius: 8px 5px;
+    /*border-radius: 8px 5px;*/
 
   }
   .col-md-3{
@@ -279,10 +279,14 @@
     margin-top: 15px;
     margin-left: 450px;
   }
+  .name{
+    /*border: solid 1px #eee;*/
+  }
   .col-md-10{
     margin-left: 100px;
-    background-color: rgba(249, 249, 249, 0.9);
-    box-shadow: 2px 2px 8px grey;
+
+    /*background-color:bisque ;*/
+    /*box-shadow: 2px 2px 8px grey;*/
     margin-top: 20px;
     width: 400px;
     height: 40px;

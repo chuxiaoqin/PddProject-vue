@@ -18,9 +18,9 @@
     <div id="login" v-if="!islogin"><router-link to="/login/" >登录</router-link></div>
     <div v-if="!islogin">|</div>
     <div id="regist" v-if="!islogin"><router-link  to="/regist/">注册</router-link></div>
-    <!--<div>-->
-      <!--<router-link to="/developer/">关于我们 </router-link>-->
-    <!--</div>-->
+    <div>
+      <router-link to="/aboutus/">关于我们 </router-link>
+    </div>
 
     <!--放入模态框-->
 

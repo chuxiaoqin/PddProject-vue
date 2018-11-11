@@ -5,7 +5,7 @@ import Router from 'vue-router'
 // 可以从其他文件 import 进来，我们一般都是建好了组件再来写路由的
 // 所以就会有好多这样的语句。
 
-
+import Developer from '@/components/Developer'
 import Index from '@/components/Index'
 import Company from '@/components/Company'
 import Forum from '@/components/Forum'
@@ -66,6 +66,12 @@ export default new Router({
       path:'/search/',
       name:'search',
       component:Search
+
+    },
+    {
+      path:'/aboutus/',
+      name:'developer',
+      component:Developer
 
     },
     {

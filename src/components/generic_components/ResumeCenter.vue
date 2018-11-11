@@ -4,8 +4,8 @@
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="col-md-12 li" v-for="li in uid" :key="li" >
-          <span class="col-md-10" :id=li>我的简历{{li}}</span>
-          <button class="col-md-2 buto2" :id="li" v-on:click="totop(li)">查看</button>
+          <span class="col-md-10 resume" :id=li>我的简历{{li}}</span>
+          <button class="col-md-2 see " :id="li" v-on:click="totop(li)">查看</button>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -275,7 +275,7 @@
     margin-top: 10px;
     width: 400px;
     height: 40px;
-    border-radius: 8px 5px;
+    /*border-radius: 8px 5px;*/
 
   }
   .col-md-3{
@@ -296,9 +296,19 @@
 
   .li {
     border: 1px solid gainsboro;
-    box-shadow: 2px 2px 8px grey;
+    /*box-shadow: 2px 2px 8px grey;*/
     font-size: 2em;
     margin-top: 10px;
   }
+ .resume{
+   color:#337ab7;
+   font-size: 16px;
+   position: relative;
+   top: 5px;
+ }
+  .see{
+    color:#337ab7;
+    font-size: 16px;
 
+  }
 </style>

@@ -232,6 +232,7 @@
     margin-left: 80px;
   }
   .buto2{
+    color:#337ab7;
     height: 40px;
     width: 60px;
     margin-top: 15px;

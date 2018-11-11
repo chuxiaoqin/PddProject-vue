@@ -167,5 +167,11 @@ div.modal-footer div:hover{
     background-color: #2BFFE7;
     box-shadow: 0 0 2px #2BFFE7;
   }
+ .resume-item-active{
+  background-color: #2BFFE7;
+  box-shadow: 0 0 2px #2BFFE7;
+
+}
+
 
 </style>

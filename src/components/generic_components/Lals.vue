@@ -44,6 +44,7 @@ export default {
   mounted: function () {
 
     this.getLals();
+
 // this.loadLals()
 
     //   let height = 565 ;//第一个隐藏标签的高度
@@ -52,6 +53,10 @@ export default {
     //     hidden.style.top+= height + 'px';
     //     height += 48;
     //   }
+
+  },
+  updated:function(){
+    this.weizhi()
   },
   methods: {
     getLals: function () {
@@ -188,6 +193,23 @@ export default {
       // let hidden_items=document.querySelector("div.hidden-items");
 
       // 循环 hidden-items 标签
+
+    },
+    weizhi:function () {
+
+        let height = 576 ;//第一个隐藏标签的高度
+        let hiddens = document.querySelectorAll('div.hidden-items');
+      // console.log(hiddens);
+
+      for (let hidden of hiddens){
+
+          hidden.style.top+= height + 'px';
+          height += 48;
+        }
+
+
+
+
 
     }
 

@@ -4,7 +4,7 @@
       <Nav :islogin="islogin"></Nav>
     </div>
     <div class="main col-md-12">
-      <div class="bg-boxtop"></div>
+      <!--<div class="bg-boxtop"></div>-->
       <div class="bg-content">
         <div class="row">
           <div class="col-md-3">
@@ -158,16 +158,18 @@
   }
 
   .list-group-item {
-    border: 2px solid #eee;
+
+    /*border: 2px solid #eee;*/
   }
 
   .list-group-item:hover {
+    font-family: "microsoft yahei" !important;
     font-weight: bold;
     color: #ff6000;
     background-color: #fffff9;
     border: 1px solid #eee;
     border-right-color: #fff;
-    border-left: 2px solid #ff6000;
+    border-left: 2px solid #337ab7;;
   }
 
   .bg-boxtop {
@@ -175,15 +177,17 @@
     width: 1000px;
     height: 50px;
     margin: 20px auto;
-    box-shadow: 2px 2px 8px grey;
+    /*box-shadow: 2px 2px 8px grey;*/
   }
 
   .bg-content {
     width: 1000px;
     margin: auto;
+    position: relative;
+    top: 10px;
     border: solid 1px #eee;
-    border-radius: 5px;
-    box-shadow: 2px 2px 8px grey;
+    /*border-radius: 2px;*/
+    /*box-shadow: 2px 2px 8px grey;*/
   }
 
   .t {
